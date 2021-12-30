@@ -1,0 +1,205 @@
+>>> type(5)
+<class 'int'>
+>>> type(4.5)
+<class 'float'>
+>>> "hello"
+'hello'
+>>> hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined
+>>> "hello"
+'hello'
+>>> type('a')
+<class 'str'>
+>>> 9 / 2
+4.5
+>>> 9 // 2
+4
+>>> 5 +5 *3
+20
+>>> 10 / 3
+3.3333333333333335
+>>> 10 % 3
+1
+>>> 20%10
+0
+>>> 22%7
+1
+>>> x = 4
+>>> x
+4
+>>> y
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'y' is not defined
+>>> y = 8
+>>> y
+8
+>>> y = 12
+>>> x + y
+16
+>>> a = x + y
+>>> a
+16
+>>> type(a)
+<class 'int'>
+>>> a = 7.8
+>>> type(a)
+<class 'float'>
+>>> x
+4
+>>> 'x'
+'x'
+>>> hello = 1
+>>> hello
+1
+>>> goodbye
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'goodbye' is not defined
+>>> 'hello'
+'hello'
+>>> hello
+1
+>>> type(hello)
+<class 'int'>
+>>> 'type'
+'type'
+>>> age = 25
+>>> age
+25
+>>> age = 26
+>>> z = x + y
+>>> age = 25
+>>> age + 1
+26
+>>> age
+25
+>>> age = age + 1
+>>> age
+26
+>>> age = age + 1
+>>> age
+27
+>>> age = age + 1
+>>> age
+28
+>>> age = age + 5
+>>> age
+33
+>>> age = age - 10
+>>> age
+23
+>>> age = age * 2
+>>> age
+46
+>>> age = age / 2
+>>> age
+23.0
+>>> age = age + 1
+>>> age
+24.0
+>>> age += 1
+>>> age
+25.0
+>>> age -=1
+>>> age
+24.0
+>>> age *=2
+>>> age
+48.0
+>>> age /=2
+>>> age
+24.0
+>>> age //=2
+>>> age
+12.0
+>>> age **=2
+>>> age
+144.0
+>>> age = 12
+>>> age = age * age
+>>> age
+144
+>>> age = 12
+>>> age = age ** 2
+>>> age
+144
+>>> age **=2
+>>> age
+20736
+>>> age = 23
+
+
+'hello'
+>>> 'hello'
+'hello'
+>>> 'he's perfect'
+  File "<stdin>", line 1
+    'he's perfect'
+        ^
+SyntaxError: invalid syntax
+>>> "he's perfect"
+"he's perfect"
+>>> 'he\'s perfect'
+"he's perfect"
+>>> greet = 'hello'
+>>> greet
+'hello'
+>>> greet[]
+  File "<stdin>", line 1
+    greet[]
+          ^
+SyntaxError: invalid syntax
+>>> greet[0]
+'h'
+>>> greet[1]
+'e'
+>>> greet[0]
+'h'
+>>> greet[1]
+'e'
+>>> greet[2]
+'l'
+>>> greet[3]
+'l'
+>>> greet[4]
+'o'
+>>> greet[5]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> greet[-1]
+'o'
+>>> greet[-2]
+'l'
+>>> greet[-10]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> greet[-5]
+'h'
+>>> greet[0:2]
+'he'
+>>> greet[:2]
+'he'
+>>> greet[3:4]
+'l'
+>>> greet[-1:2]
+''
+>>> greet[-1:]
+'o'
+>>> greet
+'hello'
+>>> greet + ' world'
+'hello world'
+>>> greet
+'hello'
+>>> full_greet = greet + ' world'
+>>> full_greet
+'hello world'
+
+
+
+
